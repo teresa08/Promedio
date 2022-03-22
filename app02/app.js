@@ -74,7 +74,7 @@ function FormIterador() {
 
 
 
-        FormNotas += `<div class="col-4 ml-2 mt-2 row">
+        FormNotas += `<div class="col-lg-4 ml-2 mt-2 row">
                                 <input disabled type="number" value="${NOTAS[index]}"  class="form-control mb-3 col-8 mr-1" placeholder="INGRESE SU NOTA${index}">
                                             <button onclick = "eliminar(${index})" class="btn mb-3 btn-danger " ><i class="far fa-trash-alt"></i></button>
                                             </div>
